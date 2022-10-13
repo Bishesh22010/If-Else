@@ -1,3 +1,17 @@
 #include <stdio.h>
-int main()
-{
+void main()
+{ 
+    float a, b, c;
+    printf("Enter Your Marks :");
+    scanf("%f %f",&a,&b);
+    c = a + b;
+    printf("Your Total Marks are :%f");
+    if (c>30)
+    {
+        printf("Your parents are proud of You");
+    }
+    else
+    {
+        printf("You are a disappointment towards your Family");
+    }
+}
