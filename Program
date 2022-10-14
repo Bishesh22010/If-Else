@@ -5,7 +5,7 @@ void main()
     printf("Enter Your Marks :");
     scanf("%f %f",&a,&b);
     c = a + b;
-    printf("Your Total Marks are :%f");
+    printf("Your Total Marks are :%f",c);
     if (c>30)
     {
         printf("Your parents are proud of You");
